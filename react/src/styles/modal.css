@@ -1,0 +1,450 @@
+/* Tenants Modal */
+.modalWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.09);
+    backdrop-filter: blur(10px);
+}
+
+.modalContent {
+    background-color: white;
+    height: 60%;
+    width: 40%;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+    width: 100%;
+}
+
+.tenant {
+    font-size: 35px;
+    margin-right: 42%;
+    margin-top: 7%;
+}
+
+.modalForm {
+    color: #000000a5;
+    border: none;
+    border-top: none;
+    outline: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.449);
+    opacity: 1;
+    width: 65%;
+    font-size: 100%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.modalButton {
+    margin: 6rem;
+    margin-right: 1rem;
+}
+
+.save {
+    background-color: #197572;
+    color: white;
+    width: 250px;
+    height: 39px;
+}
+
+.save:hover {
+    background-color: #31af9a;
+}
+
+.close {
+    margin-left: 96%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+.cancel {
+    color: #197572;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.cancel:hover {
+    color: #31af9a;
+}
+
+.eyeIcon {
+    margin-top: -2.7rem;
+    margin-left: 28rem;
+}
+
+/* Tenants Modal */
+/* Listing Modal */
+.bg {
+    background-color: rgba(0, 0, 0, 0.09);
+    height: 100%;
+    width: 100%;
+}
+
+.modalWrapper2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.modalListing1 {
+    margin-top: 3rem;
+}
+
+.modalContent2 {
+    background-color: white;
+    height: 56%;
+    width: 90%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* imgLISTINGMODAL */
+.ModalImg {
+    width: 40%;
+    margin-left: 3.4rem;
+    z-index: 2;
+}
+
+.ModalImg {
+    width: 40%;
+    margin-right: 48rem;
+    z-index: 2;
+}
+
+.imgContainer:hover {
+    cursor: pointer;
+}
+
+.imgOverlay {
+    margin-left: 3.4rem;
+    width: 38.9%;
+    padding-top: 10.7rem;
+
+}
+
+.editBar {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.65);
+    height: 2.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17.3%;
+    margin-top: -13.4rem;
+}
+
+.editBar1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17.3%;
+    margin-top: -18rem;
+}
+
+
+.imgContainer:hover .imgOverlay.hovered .editBar {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.editText {
+    color: #197572;
+    font-weight: 600;
+    font-family: "proxima-nova", sans-serif;
+
+}
+
+/* imgLISTINGMODAL */
+
+.inputContainerListing {
+    margin-left: -102%;
+    margin-top: 5.2rem;
+}
+
+.inputListing {
+    color: #000000a5;
+    border: none;
+    border-top: none;
+    outline: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+    opacity: 1;
+    width: 60%;
+    font-size: 100%;
+    margin-top: 2rem;
+    margin-right: -0.1rem;
+    background: transparent;
+}
+
+.inputListing2 {
+    color: #000000a5;
+
+    width: 100%;
+    font-size: 100%;
+    margin-top: -2.4rem;
+    margin-left: -4rem;
+
+}
+
+.inputListing3 {
+    margin-top: 8.1rem;
+    margin-left: -15rem;
+    width: 70%;
+    border: none;
+    border-top: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+    outline: none;
+    background: transparent;
+}
+
+.inputListingBath {
+    margin-left: 2rem;
+    margin-right: -20rem;
+    margin-bottom: 6rem;
+    width: 70%;
+    border: none;
+    border-top: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+    outline: none;
+    background: transparent;
+}
+
+.amentities {
+    margin-top: -3rem;
+    margin-left: -15rem;
+}
+
+.list {
+    margin-top: -1rem;
+    margin-left: -58%;
+    font-size: 13px;
+    font-weight: medium;
+    font-family: "proxima-nova", sans-serif;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+    width: 150%;
+}
+
+li {
+    color: black;
+}
+
+.listingCheckbox {
+    font-family: "proxima-nova", sans-serif;
+    margin-top: 1.4rem;
+    margin-left: -3%;
+    font-size: 14px;
+    color: rgba(128, 128, 128, 1.00);
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+}
+
+.checkboxLabel {
+    margin-left: 4px;
+}
+
+.checkboxListing {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+.checkboxListing:checked {
+    background-color: #197572;
+}
+
+.checkboxListing:checked::before {
+    content: "\2713";
+    display: block;
+    text-align: center;
+    line-height: 14px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.checkboxListing:focus {
+    outline: none;
+    border-color: #197572;
+}
+
+.closeListing {
+    margin-bottom: -10rem;
+    margin-right: -5rem;
+    width: 2.5%;
+}
+
+.modalButton1 {
+    margin: 6rem;
+    margin-right: 1rem;
+}
+
+.saveListing {
+    background-color: #197572;
+    color: white;
+    width: 150px;
+    height: 39px;
+}
+
+.saveListing:hover {
+    background-color: #31af9a;
+}
+
+.closeListing {
+    margin-left: 99%;
+    margin-top: -2rem;
+    cursor: pointer;
+}
+
+.cancelListing {
+    color: #197572;
+    text-decoration: underline;
+    margin-right: -3rem;
+    font-weight: 500;
+}
+
+.cancelListing:hover {
+    color: #31af9a;
+}
+
+.amentities {
+    color: rgba(128, 128, 128, 1.00);
+}
+
+
+
+.buttonContainer1 {
+    margin-left: -4rem;
+    margin-bottom: 2.5rem;
+}
+
+/* Listing Modal */
+/* Listing Modal2 */
+.modalContent1 {
+    width: 95%;
+    height: 100%;
+    background-color: white;
+    z-index: 200;
+    font-family: "proxima-nova", sans-serif;
+}
+
+.modalNav {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.352);
+}
+
+.gobackContainer {
+    margin-top: 3rem;
+    margin-left: 4rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.goBack {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #197572;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.goBack:hover {
+    color: #31af9a;
+}
+
+.closeListing2 {
+    height: 0.7rem;
+    margin-right: 6rem;
+    cursor: pointer;
+}
+
+.modalNav {
+    display: flex;
+}
+
+.ulModal {
+    list-style: none;
+    display: flex;
+    padding-left: 1rem;
+    margin-left: 2.4%;
+    margin-top: 1%;
+    width: 50%;
+    font-size: 0.9rem;
+    margin-bottom: 0.6%;
+}
+
+.liModal {
+    margin-right: 35px;
+    transition: all 0.2s;
+    position: relative;
+    color: grey;
+}
+
+.liModal:hover {
+    color: #197572;
+}
+
+.liModal::after {
+    content: "";
+    position: absolute;
+    top: 138%;
+    left: 0;
+    width: fit-content;
+    height: 2px;
+    background-color: #197572;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.liModal:hover::after {
+    transform: scaleX(0.9);
+    width: 100%;
+}
+
+.b3 {
+    margin-right: 58%;
+}
+
+.option {
+    color: #197572;
+    margin-right: 2%;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    text-decoration: underline;
+}
+
+#fileInput {
+    display: none;
+}
+
+.option:hover {
+    color: #31af9a;
+}
+
+.editText:hover {
+    color: #31af9a;
+}
+
+/* Listing Modal2 */
+.inputAmentities {
+    border: none;
+    border-top: none;
+    outline: none;
+}

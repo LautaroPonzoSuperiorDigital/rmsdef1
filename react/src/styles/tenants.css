@@ -1,0 +1,275 @@
+.tenantsContainer {
+    font-family: "proxima-nova", sans-serif;
+    margin: 2% 0 0 2%;
+    width: 60%;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.tenantsText {
+    font-size: 200%;
+}
+
+.filterMissedPayment {
+    color: #197572;
+    font-weight: 700;
+}
+
+.tenantShow {
+    white-space: nowrap;
+}
+
+/* search */
+.search-container {
+    width: 8%;
+    margin-left: 27%;
+}
+
+.searchListings {
+    width: 20%;
+}
+
+.search-input {
+    border-radius: 0;
+    /* Hace que el campo de búsqueda sea cuadrado */
+    outline: none;
+    /* Elimina el contorno al recibir foco */
+}
+
+.search-input {
+    border-radius: 0;
+    outline: #31AF9A;
+}
+
+
+.search-input:focus {
+    box-shadow: none;
+    border-color: #31AF9A;
+    z-index: -99;
+    cursor: pointer;
+}
+
+.SearchIcon {
+    margin-left: -2rem;
+    margin-bottom: 0.2rem;
+}
+
+
+.SearchIconListings1 {
+    margin-left: -2rem;
+    margin-bottom: 0.2rem;
+}
+
+.SearchIcon:hover,
+.SearchIconListings1:hover {
+    cursor: pointer;
+}
+
+.listingContainer {
+    white-space: nowrap;
+    margin-left: 2rem;
+}
+
+.add-listing {
+    font-family: "proxima-nova", sans-serif;
+    width: 25%;
+    height: 60%;
+    background-color: #197572;
+    color: white;
+}
+
+/* search */
+
+.container-fluid.tenants {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.p1 {
+    margin-bottom: -0.1rem;
+    white-space: nowrap;
+    font-size: 16px;
+    opacity: 1;
+    font-family: "proxima-nova", sans-serif;
+    color: #000000a5;
+}
+
+.name {
+    padding-right: 8rem;
+}
+
+/* listings */
+.listings1 {
+    padding-right: 1.5rem;
+}
+
+.email {
+    padding-left: 5rem;
+    padding-right: 8rem;
+}
+
+.phone {
+    padding-right: 9rem;
+}
+
+.contract {
+    padding-right: 4rem;
+}
+
+.bgcheck {
+    color: #00000071;
+}
+
+.actions {
+    margin-left: 2rem;
+}
+
+tbody {
+    height: 12rem;
+}
+
+p {
+    height: 32px;
+}
+
+.h {
+    margin-top: 0.8rem;
+    margin-left: 0.5rem;
+    color: #000000;
+}
+
+.email1 {
+    margin-left: -1rem;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+}
+
+.checkMark {
+    margin-left: 5.1rem;
+    margin-bottom: -0.9rem;
+}
+
+.checkMarkListing {
+    margin-left: 9.5rem;
+}
+
+.missed {
+    color: red;
+}
+
+.hoverableButton {
+    margin-left: 20px;
+    position: inherit;
+    width: 20%;
+}
+
+.editButton {
+    margin-top: 0.3rem;
+    margin-right: -1rem;
+    margin-left: 2.5rem;
+}
+
+.imageContainer {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.confirmationBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -10rem;
+    margin-top: -3rem;
+    width: 10rem;
+    white-space: nowrap;
+    background-color: #31af9a;
+    font-family: "proxima-nova", sans-serif;
+    color: white;
+    height: 2rem;
+}
+
+.edit-component {
+    background-color: green;
+    width: 100%;
+    height: 100%;
+}
+
+.formControl {
+    margin-right: 13rem;
+}
+
+
+
+.testImg {
+    margin-right: 3rem;
+    height: 3rem;
+    width: 3.7rem;
+}
+
+.public {
+    margin-left: 8rem;
+}
+
+.td {
+    margin-bottom: -0.2rem;
+}
+
+.trBg:hover {
+    background-color: #19757223;
+}
+
+.tabs {
+    margin-top: -1rem;
+}
+
+.alignText {
+    margin-top: 1rem;
+    height: 0.9rem;
+}
+
+.ID {
+    margin-left: 45%;
+}
+
+.bttonContainer {
+    margin-right: 1%;
+    margin-top: 1%;
+    width: 40%;
+}
+
+/* checkbox */
+
+.checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.checkbox:checked {
+    background-color: #197572;
+}
+
+.checkbox:checked::before {
+   
+    display: block;
+    text-align: center;
+    line-height: 10px;
+    font-size: 10px;
+    color: #fff;
+}
+
+.checkbox:focus {
+    outline: none;
+    border-color: #197572;
+}
+/* checkbox */

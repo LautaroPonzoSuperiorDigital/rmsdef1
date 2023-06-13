@@ -1,0 +1,99 @@
+
+.navbar {
+  border-bottom: 2px solid rgba(128, 128, 128, 0.352);
+}
+
+.logoNav {
+  width: 80%;
+  cursor: pointer;
+}
+li {
+  width: 20%;
+  font-size: 125%;
+  margin-right: 0.7%;
+  white-space: nowrap;
+}
+.nav-link {
+  position: relative;
+}
+.chat {
+  transition: all 0.2s;
+  width: 100%;
+}
+
+.chat:hover {
+  color: #197572;
+}
+
+.chat::after {
+  content: "";
+  position: absolute;
+  bottom: -37%;
+  left: 0;
+  width: fit-content;
+  height: 2px;
+  background-color: #197572;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.chat:hover::after {
+  transform: scaleX(0.9);
+  width: 100%;
+}
+.custom-item {
+  transition: all 0.2s;
+}
+
+.custom-item:hover {
+  color: #197572;
+}
+
+.custom-item::after {
+  content: "";
+  position: absolute;
+  bottom: -37%;
+  left: 0;
+  width: fit-content;
+  height: 2px;
+  background-color: #197572;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.custom-item:hover::after {
+  transform: scaleX(0.9);
+  width: 100%;
+}
+
+.nav-item.active .custom-item,
+.nav-item .custom-item.active {
+  color: #197572;
+}
+
+.nav-item .active .custom-item::after,
+.nav-item .custom-item.active::after {
+  transform: scaleX(0.9);
+  width: 100%;
+}
+.username {
+  margin-right: 2%;
+}
+.user {
+  margin-right: 2%;
+}
+.Search {
+  margin: 0 0 3% 28%;
+}
+.username-text {
+  margin-right: 1.5rem;
+}
+.username-text:hover {
+  color: #197572;
+}
+
+.logout-icon:hover {
+  color: #197572;
+}

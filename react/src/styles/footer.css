@@ -1,0 +1,29 @@
+.footer {
+  position: absolute;
+  font-family: "proxima-nova", sans-serif;
+  text-transform: uppercase;
+  color: rgba(128, 128, 128, 0.656);
+  margin-top: 2rem;
+  font-size: 1rem;
+  bottom: 0;
+  z-index: 1;
+}
+.button-container {
+  margin-top: -0.1rem;
+}
+.page-item {
+  font-size: 1rem;
+  margin-bottom: -1rem;
+  color: rgba(0, 0, 0, 0.755);
+}
+.previous,.nextPage{
+    color: rgba(0, 0, 0, 0.755);
+}
+
+.nextPage {
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+.previous:hover,.nextPage:hover,.page-item:hover {
+ color: #197572;
+}

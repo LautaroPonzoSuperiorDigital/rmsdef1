@@ -1,0 +1,354 @@
+.containerPublic {
+    width: 100%;
+    height: auto;
+    font-family: "proxima-nova", sans-serif;
+}
+
+.position-sticky {
+    background-color: white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.23);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    top: 0;
+    z-index: 99;
+}
+
+.filtersBar {
+    height: 6rem;
+}
+
+.LogoPublic {
+    width: 8%;
+    cursor: pointer;
+}
+
+.inputPublic {
+    width: 25rem;
+    height: 2.4rem;
+    border-radius: 0;
+    outline: none;
+}
+
+.inputPublic {
+    border-radius: 0;
+    border: 1px solid rgba(128, 128, 128, 0.219);
+    font-style: italic;
+}
+
+.inputPublic:hover {
+    box-shadow: none;
+    border-color: #31AF9A;
+    border-width: 2px;
+}
+
+.SearchIconListings {
+    margin-left: -2.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.dropdownMenu {
+    margin-left: 2rem;
+    height: 2.4rem;
+    width: 10rem;
+    border-radius: 0;
+    outline: none;
+    color: rgba(0, 0, 0, 0.64);
+    border: 1px solid rgba(128, 128, 128, 0.219);
+}
+
+.dropdownMenu:hover {
+    box-shadow: none;
+    border-color: #31AF9A;
+    border-width: 2px;
+}
+
+.option:hover {
+    color: #31AF9A;
+}
+
+.opt {
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.containerImgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.item1 {
+    border: 1px solid rgba(128, 128, 128, 0.41);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    height: auto;
+    width: calc((120% - 1rem) / 4);
+
+    max-width: 90%;
+    max-height: 90%;
+    margin: 1.6rem;
+
+}
+
+.item1:hover {
+    border: 1px solid #31AF9A;
+}
+
+.imgPublic {
+    max-width: 100%;
+    height: auto;
+}
+
+.description {
+    height: 10rem;
+}
+
+/* firstcol */
+.spects {
+    width: 70%;
+    height: 100%;
+    white-space: nowrap;
+}
+
+.publicPrice {
+    font-size: 2.6rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.spect {
+    margin-left: 1.9rem;
+    margin-bottom: -0.3rem;
+}
+
+.strong {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.78);
+}
+
+
+/* firstcol */
+/* secondcol */
+.spects2 {
+    width: 30%;
+    height: 100%;
+    white-space: nowrap;
+}
+
+.spectText {
+    margin-right: 1.3rem;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.icons1 {
+    margin-top: -1rem;
+    margin-right: 1.3rem;
+}
+
+.nbedbath {
+    font-weight: 500;
+    margin-right: 0.5rem;
+    margin-top: 0.4rem;
+}
+
+.bed {
+    margin-right: 1rem;
+}
+
+.listingNumber {
+    margin-right: 1.3rem;
+}
+
+/* secondcol */
+/* public Modal */
+.publicModal1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #31AF9A;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+/* imgbg */
+.imgPublic1 {
+    height: 100%;
+    width: 100%;
+}
+
+.imgCardContainerClass {
+    border: 1px solid white;
+    width: 800%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showImage {
+    height: 100%;
+}
+
+.backToSearch {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.70);
+    top: 17%;
+    left: 3%;
+    width: 10vw;
+    height: 3%;
+    z-index: 100;
+    color: #197572;
+    font-size: 0.8vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.xmonth {
+    font-size: 1.2vw;
+}
+
+.backToSearch:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #31AF9A;
+}
+
+.bottomLeftButton {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.71);
+    bottom: 8%;
+    left: 3%;
+    width: 4vw;
+    height: 3%;
+    z-index: 100;
+    color: #197572;
+    font-size: 0.8vw;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.bottomLeftButton:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #31AF9A;
+}
+
+/* imgbg */
+
+.description1 {
+    background-color: white;
+    width: 30%;
+    height: 100%;
+}
+
+.publicPrice1 {
+    margin-top: 5rem;
+    margin-left: 3rem;
+    height: 10%;
+    width: 100%;
+    font-size: 2vw
+}
+
+.spectsModal {
+    height: 23%;
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 0.9vw;
+    text-transform: uppercase;
+    color: #000000A5;
+}
+
+.desc {
+    margin-bottom: 1.5%;
+    margin-top: 5%;
+    margin-right: 2rem;
+}
+
+.id2 {
+    margin-left: 3rem;
+}
+
+.or2 {
+    margin-left: 3rem;
+}
+
+.desc2 {
+    color: black;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.order2 {
+    margin-right: 6.5rem;
+}
+
+.desc1 {
+    margin-top: 2rem;
+}
+
+.PublicList {
+    margin-left: 5rem;
+    margin-top: -0.9rem;
+    font-weight: 600;
+}
+
+.PublicList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.PublicList li::before {
+    content: "•";
+    margin-right: 0.5em;
+}
+
+.second {
+    margin-left: 4rem;
+}
+
+.desc3 {
+    margin-left: 3rem;
+    color: #000000A5;
+}
+
+.requirementsUl {
+    margin-left: 3rem;
+    font-weight: 600;
+    width: 100%;
+    font-size: 0.7vw;
+}
+
+.requirementsUl ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.requirementsUl li::before {
+    content: "•";
+    margin-right: 0.5em;
+}
+
+.requirementsUl li {
+    margin-bottom: 1rem;
+}
+.containerD{
+    margin-top: 20%;
+}
+.applyBtnPublic{
+    background-color: #197572;
+    width: 80%;
+    height: 2.3rem;
+    color: white;
+}
+.applyBtnPublic:hover{
+background-color: #31AF9A;
+}
+/* public Modal */
