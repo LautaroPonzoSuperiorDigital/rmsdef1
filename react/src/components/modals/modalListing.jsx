@@ -18,6 +18,10 @@ const EditModalListings = ({ renderSectionContent }) => {
 
   const inputRefs = useRef([]);
 
+  const handleSelectImage = (file) => {
+    console.log(file);
+  }
+
   const handleAmentityChange = (index, value) => {
     const newAmentities = [...amentities];
     newAmentities[index] = value;
@@ -355,6 +359,7 @@ const EditModalListings = ({ renderSectionContent }) => {
             <ModalListingsImgs
               closeModal={closeModal}
               selectedListingId={selectedListingId}
+              onImageUpdate={handleSelectImage}
             />
             <style>{`.footer { display: none !important; }`}</style>
           </>

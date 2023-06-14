@@ -227,13 +227,13 @@ const ListingsAdmin = () => {
                         <td className="h p1 td td2"></td>
                         <td className="h p1 td td2">
                           <p className="alignText d-flex align-items-center">
-                            {listing.public && (
+                            {listing.public ? (
                               <img
                                 className="checkMarkListing"
                                 src={CheckMarkListing}
                                 alt="CheckMark"
                               />
-                            )}
+                            ): null}
                           </p>
                         </td>
                         <td>
